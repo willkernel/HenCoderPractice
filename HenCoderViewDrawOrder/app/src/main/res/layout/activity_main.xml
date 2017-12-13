@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.willkernel.app.hencoderviewdraworder.SpotLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.willkernel.app.hencoderviewdraworder.MainActivity">
+
+    <com.willkernel.app.hencoderviewdraworder.MyImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:foreground="#66000000"
+        android:src="@mipmap/ic_batman" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name" />
+
+    <com.willkernel.app.hencoderviewdraworder.MyEditText
+        android:layout_width="wrap_content"
+        android:text="@string/app_name"
+        android:layout_height="wrap_content"
+        android:hint="@string/app_name" />
+</com.willkernel.app.hencoderviewdraworder.SpotLinearLayout>
